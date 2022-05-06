@@ -1,7 +1,4 @@
-# JavaScript Fetch using JSONPlaceholder API
+# JavaScript Fetch which consumes jsonplaceholder.typicode.com API
 
-Understanding JavaScript Fetch using JSONPlaceholder API (GET, POST, PUT, DELETE). 
+To understand JavaScript Fetch using jsonplaceholder.typicode.com API (GET, POST, PUT, DELETE). 
 
-Check out the CodeOmelet blog post for this project.
-
-Link: http://codeomelet.com/posts/javascript-fetch-using-jsonplaceholder-api
