@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Fetch using JSONPlaceholder API</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <h3>JavaScript Fetch using JSONPlaceholder API</h3>
+                <hr>
+
+                <!-- add new post -->
+                <button id="btnAdd" type="button" class="btn btn-primary btn-sm float-right">
+                    <i class="fa fa-plus pr-1"></i>Add
+                </button>
+
+                <h5 class="mb-3">Posts</h5>
+
+                <!-- alert messages -->
+                <div id="dvMessage" class="alert d-none" role="alert"></div>
+
+                <!-- post form -->
+                <form id="frmPost" class="card mb-3 d-none">
+                    <div class="card-body">
+                        <h5 id="frmTitle" class="card-title">Add Post</h5>
+                        <div class="form-group">
+                            <input type="text" name="txtTitle" id="txtTitle" class="form-control" placeholder="Enter title">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="3" name="txtBody" id="txtBody" class="form-control"
+                                placeholder="Enter body"></textarea>
+                        </div>
+                        <button id="btnSubmit" type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                        <button id="btnCancel" type="button" class="btn btn-light">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- post list -->
+        <div id="dvList" class="row"></div>
+    </div>
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
